@@ -4,7 +4,7 @@ An archival robotics research prototype for adapting competing task objectives o
 
 [![Watch the UR5 demo](https://img.youtube.com/vi/YBgM1MzcjqU/hqdefault.jpg)](https://www.youtube.com/watch?v=YBgM1MzcjqU)
 
-**[Watch the simulation and real-robot demo](https://www.youtube.com/watch?v=YBgM1MzcjqU)**
+**[Watch the real-robot demo](https://www.youtube.com/watch?v=YBgM1MzcjqU)**
 
 **Resources:** [Demo video](https://www.youtube.com/watch?v=YBgM1MzcjqU) · [Unpublished technical report](./real_time_task_priority_tuning_technical_report.pdf)
 
