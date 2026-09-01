@@ -2,7 +2,7 @@
 
 An archival robotics research prototype for adapting competing task objectives online. The method uses constrained quadratic programming to update soft task priorities for a UR5 manipulator operating around changing targets and obstacles.
 
-[![Watch the UR5 demo](https://img.youtube.com/vi/YBgM1MzcjqU/hqdefault.jpg)](https://www.youtube.com/watch?v=YBgM1MzcjqU)
+[![Watch the UR5 demo](./assets/real_time_task_priority_tuning_overview.png)](https://www.youtube.com/watch?v=YBgM1MzcjqU)
 
 **[Watch the real-robot demo](https://www.youtube.com/watch?v=YBgM1MzcjqU)**
 
