@@ -44,7 +44,7 @@ online_tuning/
 
 ## Contributors
 
-Yiyao Zhu and Jian Li contributed equally to this project, with Yuquan Wang, Yinyin Su, and Yongquan Chen.
+Yiyao Zhu, Jian Li, Yuquan Wang, Yinyin Su, and Yongquan Chen.
 
 ## Project Status
 
