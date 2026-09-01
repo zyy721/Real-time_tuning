@@ -34,14 +34,6 @@ online_tuning/
 └── package.xml
 ```
 
-## Original Software Stack
-
-- ROS 1 and catkin
-- C++11
-- MoveIt
-- UR5 Gazebo and MoveIt packages
-- Eigen3 and QuadProg++
-
 ## How to Cite
 
 The report is unpublished, so please cite it together with this repository:
