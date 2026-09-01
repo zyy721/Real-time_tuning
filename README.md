@@ -22,18 +22,6 @@ This project formulates online task-priority selection as a constrained quadrati
 - ROS and MoveIt integration for a UR5 manipulator
 - Evaluation in simulation and real-robot experiments
 
-## Repository Structure
-
-```text
-online_tuning/
-├── include/online_tuning/controller.h  # Controller interface and parameters
-├── src/controller.cpp                  # Task controllers and QP formulation
-├── src/main_code.cpp                   # ROS control loop
-├── launch/load_ur5.launch              # UR5 Gazebo and MoveIt launch file
-├── CMakeLists.txt
-└── package.xml
-```
-
 ## Experiments
 
 All experiments use three sub-tasks on a 6-DOF UR5: reach a desired end-effector position, keep a desired end-effector orientation, and hold a preferred joint configuration (in the moving-obstacle experiment the third sub-task is replaced by dynamic-obstacle avoidance).
