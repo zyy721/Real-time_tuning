@@ -42,12 +42,16 @@ online_tuning/
 - UR5 Gazebo and MoveIt packages
 - Eigen3 and QuadProg++
 
-## Contributors
+## How to Cite
 
-Yiyao Zhu, Jian Li, Yuquan Wang, Yinyin Su, and Yongquan Chen.
+The report is unpublished, so please cite it together with this repository:
 
-## Project Status
-
-This repository is an archival snapshot of a 2019 research prototype and is not actively maintained. It records the core control implementation but does not include every dependency, calibration file, perception component, or hardware configuration from the original experiments. It should be treated as an implementation reference rather than a turnkey reproduction package. Validate the system in simulation before considering any use on physical hardware.
-
-No open-source license has been specified. Please contact the authors before reusing or redistributing the code.
+```bibtex
+@techreport{zhu2019realtimetuning,
+  author = {Zhu, Yiyao and Li, Jian and Wang, Yuquan and Su, Yinyin and Chen, Yongquan},
+  title  = {Real-time Tuning Soft Task Priorities with Quadratic Programming},
+  year   = {2019},
+  type   = {Unpublished technical report},
+  note   = {Available at \url{https://github.com/zyy721/Real-time_tuning}}
+}
+```
