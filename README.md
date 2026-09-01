@@ -34,6 +34,16 @@ online_tuning/
 └── package.xml
 ```
 
+## Experiments
+
+All experiments use three sub-tasks on a 6-DOF UR5: reach a desired end-effector position, keep a desired end-effector orientation, and hold a preferred joint configuration (in the moving-obstacle experiment the third sub-task is replaced by dynamic-obstacle avoidance).
+
+- **Simulation, static obstacle** — compared against fixed weights and real-time Bayesian Optimization (BO) tuning. Only QP tuning keeps the safety constraint satisfied while both objectives converge to zero; BO slightly violates the bound, produces chattering weights, and solves 25×–170× slower than the QP (report Table I) — too slow for high-frequency control.
+- **Real UR5, randomly moving obstacle** — a moving AGV tracked by a Kinect via QR codes. QP tuning avoids the obstacle while realizing both objectives; fixed weights violate the safety bound and fail the mission.
+- **Real UR5, randomly moving target** — both objectives converge to zero with the safety constraint within its bound.
+
+Plots and details: see the [technical report](./real_time_task_priority_tuning_technical_report.pdf).
+
 ## How to Cite
 
 The report is unpublished, so please cite it together with this repository:
